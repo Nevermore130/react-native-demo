@@ -1,0 +1,4 @@
+rootProject.name = 'nauka'
+apply from: file("./react_gradle/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('./react_gradle/gradle-plugin')
